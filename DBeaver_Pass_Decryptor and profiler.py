@@ -7,7 +7,7 @@ import base64
 import os
 import json
 import platform
-from Crypto.Cipher import AES
+from Crypto.Cipher import AES #pip install pycryptodome
 
 if (platform.system()) == 'Windows':
     default_paths = [
