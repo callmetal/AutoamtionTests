@@ -21,6 +21,8 @@ if (platform.system()) == 'Windows':
         r'C:\Users\TalW\AppData\Local\Packages\DBeaverCorp.DBeaverCE_1b7tdvn0p0f9y\LocalCache\Roaming\DBeaverData'
         r'\workspace6\General\.dbeaver\credentials-config.json'
     ]
+elif (platform.system()) == 'Darwin':
+    print('TODO')
 
 if len(sys.argv) < 2:
     for path in default_paths:
