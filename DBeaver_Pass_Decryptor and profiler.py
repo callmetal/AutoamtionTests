@@ -9,7 +9,7 @@ import json
 import platform
 from ast import literal_eval
 
-# pip install pycryptodome fdsfsd
+# pip install pycryptodome 
 
 from Crypto.Cipher import AES
 
