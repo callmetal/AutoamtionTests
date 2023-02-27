@@ -8,7 +8,7 @@ import os
 import json
 import platform
 
-# pip install pycryptodome
+# pip install pycryptodome feature1 
 
 from Crypto.Cipher import AES
 
